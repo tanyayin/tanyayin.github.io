@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+@media(min-width: 767px) {
+	header a.h_flm {width:205px;height:80px;}
+}
+.y_inner {
+  margin: 80px auto 35px auto;
+  
+}
+
+.tanya {width:100%;overflow:hidden;}
+.tanya img {width:100%;}
+@media(max-width: 767px) {
+	.tanya { display:none;}
+}
+
+
