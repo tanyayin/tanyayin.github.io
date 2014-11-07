@@ -3,6 +3,8 @@
 .nr {width:1080px;margin:0 auto;}
 @media(min-width: 767px) {
 	header a.h_flm {width:205px;height:80px;}
+	.bw_modal-dialog {width:700px;}
+	.bw_list {max-height:500px; overflow-x:scroll; overflow-x:hidden;}
 }
 .y_inner {
   margin: 60px auto 35px auto;
@@ -13,8 +15,11 @@
 .tanya img {width:100%;}
 @media(max-width: 767px) {
 	.tanya { display:none;}
+	.bw_list {max-height:300px; overflow-x:scroll; overflow-x:hidden;}
 }
-
+@media(orientation:landscape)and (max-width:480px){
+	.bw_list {max-height:160px;}
+}
 /************article************/
 .art { position:relative;}
 .y_box {width:100%;margin:0 auto;overflow:hidden;}
@@ -39,3 +44,12 @@ article .art_info {width:100%;line-height:25px;padding:20px;}
 @media(max-width: 480px) {
 .footer img {display:block;margin:0 auto;}
 }
+
+/**********index-aside**************/
+
+
+
+
+
+
+
