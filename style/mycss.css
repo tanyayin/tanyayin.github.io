@@ -1,10 +1,11 @@
-@charset "utf-8";
-/* CSS Document */
+.y_nav { border-radius:0 0 0;}
+.right {float:right;padding-right:10px;padding-bottom:10px;}
+.nr {width:1080px;margin:0 auto;}
 @media(min-width: 767px) {
 	header a.h_flm {width:205px;height:80px;}
 }
 .y_inner {
-  margin: 80px auto 35px auto;
+  margin: 60px auto 35px auto;
   
 }
 
@@ -14,4 +15,23 @@
 	.tanya { display:none;}
 }
 
+/************article************/
+.art { position:relative;}
+.y_box {width:100%;margin:0 auto;overflow:hidden;}
+.art_aside {overflow:hidden; box-shadow: inset -8px 3px 8px #eee;padding:20px 0 20px 0; position:absolute;height:100%;}
+aside li.panel {background:none; border:none; margin-bottom:0px;}
+.y_aa { font-size:16px; color:#0E526B; font-family:'Arial';}
+aside li.panel ul li { font-size:12px;}
+article header {width:100%;overflow:hidden;background:none; border-bottom:none;padding-top:20px;}
+article header h1 {width:100%; font-size:26px;line-height:100%;color:#000; text-align:center;font-weight:bold;padding-top:40px;}
+article .aside_ts{width:100%;margin:10px 0;line-height:25px; border:1px dashed #1154a4;padding:20px; border-radius:5px; background:#F8F9EB;}
+article .art_info {width:100%;line-height:25px;padding:20px;}
 
+.arc_pic {width:100%; text-align:center;padding:20px 0;}
+.arc_pic  img { max-width:100%;}
+.arc_pic h3{width:100%;padding:5px 0; text-align:center;}
+/************************/
+/**********footer**************/
+.footer {width:100%; border-top:5px solid #3075c3;overflow:hidden; text-align:center;padding-bottom:10px;line-height:25px;color:#33aada;padding-left:5%;padding-right:5%;margin-top:0px;}
+.footer img {max-width:100%;}
+.x_top {width:38px;height:38px; position:fixed; bottom:20px; right:20px;}
