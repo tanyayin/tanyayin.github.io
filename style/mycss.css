@@ -32,6 +32,6 @@ article .art_info {width:100%;line-height:25px;padding:20px;}
 .arc_pic h3{width:100%;padding:5px 0; text-align:center;}
 /************************/
 /**********footer**************/
-.footer {width:100%; border-top:5px solid #3075c3;overflow:hidden; text-align:center;padding-bottom:10px;line-height:25px;color:#33aada;padding-left:5%;padding-right:5%;margin-top:0px;}
+.footer {width:100%; border-top:5px solid #3075c3;overflow:hidden; text-align:center;padding-bottom:10px;line-height:25px;color:#33aada;padding-left:3%;padding-right:3%;margin-top:0px;}
 .footer img {max-width:100%;}
 .x_top {width:38px;height:38px; position:fixed; bottom:20px; right:20px;}
