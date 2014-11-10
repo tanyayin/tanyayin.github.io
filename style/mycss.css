@@ -1,3 +1,7 @@
+ img{max-width:100%;}
+
+
+
 .y_nav { border-radius:0 0 0;}
 .right {float:right;padding-right:10px;padding-bottom:10px;}
 .nr {width:1080px;margin:0 auto;}
@@ -31,7 +35,6 @@ article header {width:100%;overflow:hidden;background:none; border-bottom:none;p
 article header h1 {width:100%; font-size:26px;line-height:100%;color:#000; text-align:center;font-weight:bold;padding-top:40px;}
 article .aside_ts{width:100%;margin:10px 0;line-height:25px; border:1px dashed #1154a4;padding:20px; border-radius:5px; background:#F8F9EB;}
 article .art_info {width:100%;line-height:25px;padding:20px;}
-
 .arc_pic {width:100%; text-align:center;padding:20px 0;}
 .arc_pic  img { max-width:100%;}
 .arc_pic h3{width:100%;padding:5px 0; text-align:center;}
@@ -44,6 +47,11 @@ article .art_info {width:100%;line-height:25px;padding:20px;}
 @media(max-width: 480px) {
 .footer img {display:block;margin:0 auto;}
 }
+@media(min-width: 990px) {
+.artfl_rit { float:right;}
+}
+.i_span {height:23px;background:#CCF;padding:0px 10px;line-height:23px;margin:5px;float:left;}
+
 
 /**********index-aside**************/
 

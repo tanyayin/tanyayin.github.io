@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <!-- <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>-->
+    <link rel="stylesheet" type="text/css" href="../../stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../../stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../../stylesheets/print.css" media="print">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../style/mycss.css" media="screen">
+    <script src="http://v3.bootcss.com/assets/js/ie-emulation-modes-warning.js"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <title>巧用CSS3属性作为CSS hack</title>
+  </head>
+  <body>
+    <header>
+      <!--nav-->
+       <nav class="navbar navbar-inverse y_nav" role="navigation">
+        <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">TanyaYin</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav ">
+           <li><a href="index.html">首页</a></li>
+            <li><a href="aboutme">关于我</a></li>
+            <li><a href="bowen.html">我的博文</a></li>
+            <li><a href="hobby">业余爱好</a></li>
+          </ul>
+      </div>
+      </div>
+    </nav>
+      <!--nav-end-->
+      <!---->
+      <div class="inner y_inner">
+        <h1>TanyaYin的博客</h1>
+        <h2>这里是Tanya的个人Blog，欢迎访问！</h2>
+        <a href="https://github.com/tanyayin" class="button h_flm"><small>Follow me on</small> GitHub</a>
+      </div>
+    </header>
+<div class='container bs-docs-container art'>
+ <div class="row">
+   <aside class='art_aside col-md-3'>
+    <div class="bs-docs-sidebar hidden-print hidden-xs hidden-sm" role="complementary"> 
+    <ul class="nav" id="y_nav" aria-multiselectable="true">
+     <li class="panel">
+        <a href="#demo1" data-toggle="collapse"  data-parent="#y_nav" aria-expanded="true" aria-controls="demo1" class="y_aa">HTML5</a>
+        <ul class="nav collapse in" id="demo1">
+         <li><a href="">你好</a></li>
+       </ul>
+   </li>
+     <li class="panel">
+        <a href="#demo2" data-toggle="collapse"  data-parent="#y_nav" aria-expanded="false" aria-controls="demo2" class="y_aa">HTML5</a>
+        <ul class="nav collapse" id="demo2">
+         <li><a href="">HTML5</a></li>
+       </ul>
+   </li>
+     <li class="panel">
+        <a href="#demo3" data-toggle="collapse"  data-parent="#y_nav" aria-expanded="false" aria-controls="demo3" class="y_aa">CSS3</a>
+        <ul class="nav collapse" id="demo3">
+         <li><a href="">CSS3</a></li>
+       </ul>
+   </li>
+     <li class="panel">
+        <a href="#demo4" data-toggle="collapse"  data-parent="#y_nav" aria-expanded="false" aria-controls="demo4" class="y_aa">Btootstrap</a>
+        <ul class="nav collapse" id="demo4">
+         <li><a href="">HTML5</a></li>
+       </ul>
+   </li>
+     <li class="panel">
+        <a href="#demo5" data-toggle="collapse"  data-parent="#y_nav" aria-expanded="false" aria-controls="demo5" class="y_aa">JS/JQ</a>
+        <ul class="nav collapse" id="demo5">
+         <li><a href="">HTML5</a></li>
+       </ul>
+   </li>
+     <li class="panel">
+        <a href="#demo6" data-toggle="collapse"  data-parent="#y_nav" aria-expanded="false" aria-controls="demo6" class="y_aa">LESS</a>
+        <ul class="nav collapse" id="demo6">
+         <li><a href="">HTML5</a></li>
+       </ul>
+   </li>
+     <li class="panel">
+        <a href="#demo7" data-toggle="collapse"  data-parent="#y_nav" aria-expanded="false" aria-controls="demo7" class="y_aa">SASS</a>
+        <ul class="nav collapse" id="demo7">
+         <li><a href="">HTML5</a></li>
+       </ul>
+   </li>
+     <li class="panel">
+        <a href="#demo8" data-toggle="collapse"  data-parent="#y_nav" aria-expanded="false" aria-controls="demo8" class="y_aa">STYLES</a>
+        <ul class="nav collapse" id="demo8">
+         <li><a href="">HTML5</a></li>
+       </ul>
+   </li>
+     <li class="panel">
+        <a href="#demo9" data-toggle="collapse"  data-parent="#y_nav" aria-expanded="false" aria-controls="demo9" class="y_aa">GIT</a>
+        <ul class="nav collapse" id="demo9">
+         <li><a href="">HTML5</a></li>
+       </ul>
+   </li>
+     <li class="panel">
+        <a href="#demo10" data-toggle="collapse"  data-parent="#y_nav" aria-expanded="false" aria-controls="demo10" class="y_aa">PHP/thinkphp</a>
+        <ul class="nav collapse" id="demo10">
+         <li><a href=""></a></li>
+       </ul>
+   </li>
+    <li class="panel">
+        <a href="#demo11" data-toggle="collapse"  data-parent="#y_nav" aria-expanded="false" aria-controls="demo11" class="y_aa">CMS</a>
+        <ul class="nav collapse" id="demo11">
+         <li><a href="">HTML5</a></li>
+       </ul>
+   </li>    
+   <li class="panel">
+        <a href="#demo12" data-toggle="collapse"  data-parent="#y_nav" aria-expanded="false" aria-controls="demo12" class="y_aa">TOOLS</a>
+        <ul class="nav collapse" id="demo12">
+         <li><a href="">HTML5</a></li>
+       </ul>
+   </li>
+
+</ul>
+</div>
+   </aside>
+    <article class="col-md-9 pull-right">
+     <header>
+       <h1>巧用CSS3属性作为CSS hack </h1>
+     </header>
+     <aside class="aside_ts">
+      对于css3的应用一直是csser的痛。既想优雅的使用css3来实现复杂的页面效果。又不得不考虑国内的浏览器市场ie内核的份额。苦逼的前端开发人员只能忍痛割爱继续使用古老的图片实现圆角、背景、渐变的方式来实现效果。
+如果你就是一个这么纠结的前端攻城师，那么就用css3来实现hack把，既能锻炼经常使用新的css3属性，是自己的技术不断提高。也能够实现ie系列的兼容。呵呵虽然这个方法会比单纯的用图片实现效果要多写一些代码。但作为折腾的代表人群，这就是咱们前端应该做的。呼哈…
+     </aside>
+     <div class="art_info">
+     一、开篇小问题题目：实现类似下图的宽度自适应效果，IE9+，FireFox，Chrome，Opera等使用CSS3实现，IE6~8浏览器使用图片实现。<br>
+     计时思考……<br>
+二、思考中————- 假设这是大家全神贯注思考的18分钟 ————————<br>
+……思考结束<br>
+
+三、问题引导<br>
+
+针对不同浏览器实现类似的效果，我们可能都会想到CSS hack这个东西，让不同的浏览器下引用不同的CSS属性或是不同的CSS属性值。<br>
+
+于是要实现上图所示的效果，我们可能会将CSS代码分成两块，一块针对IE6~8，另外一块针对IE9+和其他浏览器。于是我们可能会看到类似下面的代码：<br>
+<pre><code>
+/*IE6 IE7 IE8*/
+.rad,.rad_in{background:url(/study/image/rad_bg.png) no-repeat;}
+.rad{background-position:right -300px;}
+ 
+/*IE9+以及其他现代浏览器*/
+:root .rad, :root: .rad_in{background:none;}
+:root .rad{border:1px solid #ccc; border-radius:6px; box-shadow:0 0 4px rgba(0,0,0,.2);}
+:root .rad_in{border:1px solid #fff; border-radius:6px; box-shadow:inset 0 0 20px rgba(0,0,0,.1);}
+</code></pre>
+确实，上面的代码可以让我们达到我们多希望的效果。但是，实际上，我们可以直接拿某些CSS3属性当CSS hack使用，可以实现同样的效果。<br>
+
+四、CSS3属性作为CSS hack<br>
+
+上述效果中，有浏览器冲突的CSS属性一个是border，另外一个就是background。由于IE6~8并不认识border-radius以及box-shadow，所以这两个属性纯属围观群众，不需要做处理。<br>
+
+所以上面的代码等同于：<br>
+<pre><code>
+/*IE6 IE7 IE8*/
+.rad,.rad_in{background:url(/study/image/rad_bg.png) no-repeat;}
+.rad{background-position:right -300px; border-radius:6px; box-shadow:0 0 4px rgba(0,0,0,.2);}
+.rad_in{border-radius:6px; box-shadow:inset 0 0 20px rgba(0,0,0,.1);}
+ 
+/*IE9+以及其他现代浏览器*/
+:root .rad, :root: .rad_in{background:none;}
+:root .rad{border:1px solid #ccc;}
+:root .rad_in{border:1px solid #fff;}
+</code></pre>
+于是，CSS hack部分能够就是独眼龙看告示——一目了然了！<br>
+
+however，我们没有必要使用:root这个hack属性来针对现代浏览器和老一辈的IE浏览器分别写CSS样式，我们可以直接使用CSS3作为hack，区分不同的浏览器。<br>
+
+我们先直接看下CSS3 作为CSS hack下的代码：<br>
+<pre><code>
+.rad,.rad_in{background:url(/study/image/rad_bg.png) no-repeat; background:rgba(0,0,0,0);}
+.rad{border:1px solid rgba(204, 204, 204, 1); border-radius:6px; box-shadow:0 0 4px rgba(0,0,0,.2); background-position:right -300px;}
+.rad_in{border:1px solid rgba(255, 255, 255, 1); border-radius:6px; box-shadow:inset 0 0 20px rgba(0,0,0,.1);}
+</code></pre>
+RGBA颜色属于CSS3中的东西，IE6~8浏览器并不认识它。于是，我们把border的颜色表示用RGBA颜色，IE6~8浏览器就直接不认识这里的border属性，也就不会显示什么边框颜色了。同理，background属性也是使用RGBA颜色值，表示完全透明背景，直接在支持CSS3 RGBA浏览器下重置了前面的background，同时IE6~8浏览器下前面的图片background属性值因为不认识后面的background，所以，没有被重置，依旧坚挺地图片显示。<br>
+
+于是，虽然没有明显的CSS hack印记，我们还是实现了各个浏览器下大致类似的效果，其中的利器就是CSS3属性本身。<br>
+
+最终效果CSS代码：<br>
+<pre><code>
+.box_css3{width:32%; margin:1em auto; text-align:center;}
+ 
+.rad,.rad_in{background:url(/study/image/rad_bg.png) no-repeat; background:rgba(0,0,0,0);}
+.rad{border:1px solid rgba(204, 204, 204, 1); border-radius:6px; box-shadow:0 0 4px rgba(0,0,0,.2); background-position:right -300px;}
+.rad_in{border:1px solid rgba(255, 255, 255, 1); border-radius:6px; box-shadow:inset 0 0 20px rgba(0,0,0,.1);}
+ 
+.img{padding:3.2em 0;}
+</code></pre>
+HTML代码：
+<pre><code>
+ 
+&lt;div class="box rad"&gt;
+&lt;div class="rad_in"&gt;  
+            &lt;img class="img" src="http://image.zhangxinxu.com/image/study/s/s256/mm1.jpg" alt="" /&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+     
+          </div>
+
+          <footer>来源：http://url.cn/1Nxmh9</footer>
+    </article>
+ </div>
+ </div>
+     <footer class="footer">
+      博客归TanyaYin所有&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如若转载博文，请写明来源，谢谢！<img src="../../images/162PaN8-3.jpg"/>
+    </footer>
+    <div id="back-top" class="x_top"><a href="#top"><img src="../../images/top.png"/></a></div>
+
+     <!--bootjs-->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</html>
